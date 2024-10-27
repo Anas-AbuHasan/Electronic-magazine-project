@@ -1,0 +1,104 @@
+/* إعادة ضبط التنسيقات */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.news-ticker {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.hero {
+    background-color: #0077cc;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.latest-articles {
+    padding: 2rem;
+}
+
+.latest-articles h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.articles-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.article-card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+/* تنسيق الأيقونات */
+.icon-placeholder {
+    font-size: 3rem;
+    color: #0077cc;
+    margin-bottom: 1rem;
+}
+
+/* إنشاء أيقونة عبر ::before */
+.icon-placeholder::before {
+    content: "★";
+    /* رمز النجمة كأيقونة */
+    font-size: 3rem;
+}
+
+.article-card h3 {
+    margin-top: 0.5rem;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
